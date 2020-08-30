@@ -1,0 +1,473 @@
+
+*{
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   margin:0;
+   padding:0;
+}
+
+
+.header{
+
+  display: flex;
+  justify-content: center;
+  padding: 1%;
+  padding-bottom: 0;
+}
+
+
+.navbar{
+
+  
+  
+
+}
+
+.ul{
+    margin-left: 33%;
+    margin-right: 33%;
+   
+
+    display: flex;
+    list-style: none;
+    padding: 1%;
+    justify-content: space-evenly;
+
+}
+ 
+
+
+a{
+
+  font-family: "Playfair Display";
+
+  text-decoration: none;
+  color: black;
+  font-size:larger;
+}
+
+
+
+.title{
+  background-color: #FFB9C2;
+  padding: 3%;
+
+  
+}
+
+
+.book{
+
+  background-color: black;
+  
+  padding-bottom: 0%;
+  
+ 
+  width: 12%;
+  margin-top: 1%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.page{
+  background-color: white;
+  padding: 9%;
+  padding-bottom: 100%;
+}
+
+
+.h3{
+
+  padding: 4%;
+
+  font-size: 250%;
+}
+
+img{
+  width: 100%;
+  object-fit: cover;
+}
+
+p{
+  width: 75%;
+  margin-left: 12%;
+  margin-right: 12%;
+  margin-top: 1%;
+}
+
+.text{
+  display: flex;
+  justify-content: space-around;
+}
+
+h4{
+  text-align: center;
+  background-color: black;
+  color: white;
+  border-radius: 5%;
+  width: 20%;
+  margin-top: -8%;
+  padding: 2%;
+  margin-left: 40%;
+  margin-right: 20%;
+}
+
+.a{
+  color: white;
+}
+
+footer{
+
+  background-color: black;
+
+  color: white;
+  text-align: center;
+  margin-top: 4%;
+}
+
+
+/* media queries /*
+
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    .header{
+
+      text-align: center;
+      margin-left: 11%;
+    }
+
+    .title{
+      width: 100%;
+    }
+    
+
+    .ul{
+      margin-left: 1%;
+      width: 100%;
+    }
+    a{
+      font-size: 90%;
+    }
+
+    .h3{
+      font-size: 150%;
+    }
+
+    *{
+      margin: 0;
+      padding: 0;
+    }
+
+    
+
+    footer{
+      margin-top: 55%;
+      width: 105%;
+      bottom: 0;
+      
+    }
+
+    p{
+      font-size: 90%;
+    }
+
+    h4{
+      margin-top: 5%;
+    }
+
+    img{
+      width: 140%;
+      object-fit: cover;
+    }
+
+    
+
+
+
+    
+
+   
+
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+
+
+
+    footer{
+      margin-top: 21%;
+    }
+
+    .h3{
+      margin-left: 6%;
+      width: 120%;
+      font-size: 125%;
+    }
+
+    h4{
+      margin-top: -15%;
+      margin-right: 10%;
+    }
+    p{
+      margin-left: 15%;
+    }
+
+    .title{
+      padding-bottom: 7%;
+    }
+
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+
+    img{
+      width: 100px;
+      height: 120px;
+      object-fit: cover;
+      margin-left: 3%;
+    }
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+
+    h4{
+      margin-top: 2%;
+    }
+    p{
+      font-size: 90%;
+    }
+
+    
+
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+    
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+    img{
+      width: 100px;
+      height: 120px;
+
+    }
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
+    h4{
+      margin-top: -3%;
+    }
+    p{
+      font-size: 40%;
+    }
+
+    .h3{
+
+      font-size: 200%;
+
+
+    }
+
+    img{
+      width: 130px;
+      height: 120px;
+
+    }
+
+    
+
+}
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
+}
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+
+    img{
+      width: 100px;
+      height: 150px;
+    }
+
+    .header{
+
+      text-align: center;
+      margin-left: 4%;
+    }
+    hr{
+      width: 90%;
+    }
+
+    .ul{
+      margin-left: 0.01%;
+      width: 98%;
+    }
+    a{
+      font-size: 90%;
+    }
+
+
+  }
+
+
+  @media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+
+    img{
+      width: 100px;
+      height: 150px;
+      margin-left: 3%;
+    }
+
+    h4{
+      margin-top: -5%;
+     
+    }
+
+
+
+    
+  }
+
+
+  @media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+
+
+    img{
+      width: 100px;
+      height: 150px;
+      margin-left: 3%;
+    }
+
+
+    footer{
+      margin-top: 21%;
+    }
+
+  }
